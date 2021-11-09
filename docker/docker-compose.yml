@@ -114,6 +114,8 @@ services:
       - "9002:9002"
     depends_on:
       - datahub-gms
+    volumes:
+      - ./my-custom-dir/user.props:/datahub-frontend/conf/user.props
 
 networks:
   default:
