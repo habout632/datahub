@@ -114,8 +114,6 @@ services:
       - "9002:9002"
     depends_on:
       - datahub-gms
-#    volumes:
-#      - ./fuse/user.props:/datahub-frontend/conf/user.props
 
 networks:
   default:
