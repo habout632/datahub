@@ -115,7 +115,7 @@ services:
     depends_on:
       - datahub-gms
     volumes:
-      - ./my-custom-dir/user.props:/datahub-frontend/conf/user.props
+      - ./fuse/user.props:/datahub-frontend/conf/user.props
 
 networks:
   default:
